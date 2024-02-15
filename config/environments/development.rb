@@ -52,6 +52,7 @@ Rails.application.configure do
 
   # Highlight code that triggered database queries in logs.
   config.active_record.verbose_query_logs = true
+  config.hosts << "rails-api-test-env.eba-azesmyag.ap-southeast-2.elasticbeanstalk.com"
 
 
   # Raises error for missing translations.
