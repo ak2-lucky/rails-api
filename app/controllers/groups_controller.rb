@@ -5,7 +5,7 @@ class GroupsController < ApplicationController
   def index
     @groups = Group.all
     puts "xxxx"
-    puts "xx"
+    puts "xxx"
     render json: @groups
   end
 
